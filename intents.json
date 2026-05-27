@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I help you?", "Hey! What's up?"]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["How to study", "I can't focus", "Give study tips"],
+      "responses": ["Try studying in short sessions.", "Avoid distractions and stay consistent."]
+    },
+    {
+      "tag": "career",
+      "patterns": ["Career advice", "What after 12th"],
+      "responses": ["Explore fields like AI, coding, business based on your interest."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you"],
+      "responses": ["Goodbye! Take care!", "See you later!"]
+    }
+  ]
+}
